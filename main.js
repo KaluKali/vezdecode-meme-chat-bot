@@ -22,7 +22,7 @@ const reverse_menu = Markup.keyboard([
     Markup.button('Статистика', 'primary'),
 ], { columns:2 }).oneTime();
 const ctx_scenes = require('./scenes/index');
-const ctx_methods = require('./methods/index');
+//const ctx_methods = require('./methods/index');
 const leven_list = ['привет','опрос'];
 // jobs
 // prod 0 0 */6 ? * *
