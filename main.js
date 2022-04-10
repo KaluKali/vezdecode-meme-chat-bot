@@ -74,24 +74,6 @@ bot.command('мем', (ctx) => {
 bot.command('загрузить мем', (ctx) => {
     ctx.scene.enter('meme')
 });
-// bot.command('неделя', (ctx)=>{
-//     ctx.scene.enter('week');
-// });
-// bot.command('найди', async (ctx)=>{
-//     let msg = await Message.parseFind(ctx.message.text, {data: tritData});
-//     await ctx_methods(reverse_menu, null, { data: tritData }).find_pairs(ctx,msg);
-// });
-// bot.command('кабинет', async (ctx)=>{
-//     let msg = await Message.parseCabinet(ctx.message.text, {data: tritData});
-//     await ctx_methods(reverse_menu, null, { data: tritData }).find_cabinet(ctx,msg);
-// });
-// bot.command('расписание', async (ctx)=>{
-//     let msg = await Message.parsePairsDay(ctx.message.text, {data: tritData});
-//     await ctx_methods(reverse_menu, null, { data: tritData, db: sqlDB }).pairs_day(ctx,msg);
-// });
-// bot.command('таблица', async (ctx)=>{
-//     await ctx_methods(reverse_menu, null, {data: tritData, db: sqlDB}).pairs_table(ctx);
-// });
 bot.command('2412', async (ctx)=>{
     if (ctx.message.peer_id === 461450586){
         ctx.reply('Лучшая конфа!', null, reverse_menu);
