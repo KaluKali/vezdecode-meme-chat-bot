@@ -1,0 +1,32 @@
+{
+  "name": "vezdecode-vk-chat-bot",
+  "version": "0",
+  "description": "",
+  "main": "main.js",
+  "keywords": [
+    "trit"
+  ],
+  "author": "kalukali",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KaluKali/vezdecode-vk-chat-bot.git"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "gm": "^1.23.1",
+    "node-schedule": "^2.1.0",
+    "node-vk-bot-api": "^3.5.0",
+    "pg": "^8.7.3",
+    "request": "^2.88.2",
+    "text-table": "^0.2.0"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "stop": "pkill --signal SIGINT vezdecode-meme-bot"
+  },
+  "devDependencies": {
+    "pm2": "^5.2.0"
+  }
+}
